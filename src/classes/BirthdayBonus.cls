@@ -13,6 +13,7 @@ Global class BirthdayBonus implements Database.batchable<Sobject>{
             accList.add(acc);
            
         }
+        //Lets check the changes for 1st time
         update accList;
     }
     public Void finish(Database.BatchableContext jobId){
