@@ -698,8 +698,6 @@ public class Puff {
      *  -1:  invalid block type (type == 3)
      *  -2:  stored block length did not match one's complement
      *  -3:  dynamic block code description: too many length or distance codes
-     *  -7:  dynamic block code description: invalid literal/length code lengths
-     *  -8:  dynamic block code description: invalid distance code lengths
      *  -9:  dynamic block code description: missing end-of-block code
      * -10:  invalid literal/length or distance code in fixed or dynamic block
      * -11:  distance is too far back in fixed or dynamic block
