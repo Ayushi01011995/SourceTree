@@ -14,7 +14,7 @@ Global class BirthdayBonus implements Database.batchable<Sobject>{
            
         }
         //sixth commit checking
-        //Lets check the changes for 1st time
+       
         update accList;
     }
     public Void finish(Database.BatchableContext jobId){
